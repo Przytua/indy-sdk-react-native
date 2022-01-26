@@ -26,18 +26,16 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/hyperledger/indy-sdk-react-native"
   s.license      = "Apache-2.0"
-  # s.license    = { :type => "Apache-2.0", :file => "LICENSE.md" }
   s.authors      = { "Your Name" => "yourname@email.com" }
   s.platforms    = { :ios => "10.0" }
-  s.source       = { :git => "https://github.com/hyperledger/indy-sdk-react-native.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Przytua/indy-sdk-react-native.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
   s.swift_version = '4.2'
 
   s.dependency "React"
-  # ...
-  # s.dependency "..."
+  s.dependency "IndyWrapper"
 
   s.pod_target_xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "${PODS_ROOT}/Frameworks" }
 end

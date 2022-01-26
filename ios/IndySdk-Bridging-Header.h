@@ -19,4 +19,4 @@
 //
 
 #import <React/RCTBridgeModule.h>
-#import <Indy/Indy.h>
+#import <IndyWrapper/IndyWrapper-umbrella.h>

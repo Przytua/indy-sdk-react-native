@@ -15,7 +15,7 @@
 //
 
 
-#import <Indy/Indy.h>
+#import <IndyWrapper/IndyWrapper-umbrella.h>
 
 #if __has_include(<React/RCTViewManager.h>)
 #import <React/RCTViewManager.h>

@@ -15,7 +15,7 @@
 //
 
 import Foundation
-import Indy
+import IndyWrapper
 
 struct WalletConfig: Codable {
     var id: String
